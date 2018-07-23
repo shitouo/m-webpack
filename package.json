@@ -4,7 +4,8 @@
   "description": "",
   "main": "./dist/lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix": "eslint --fix  **/*.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/shitouo/m-webpack/issues"
   },
-  "homepage": "https://github.com/shitouo/m-webpack#readme"
+  "homepage": "https://github.com/shitouo/m-webpack#readme",
+  "devDependencies": {
+    "tapable": "^1.0.0",
+    "typescript": "^2.9.2"
+  }
 }
