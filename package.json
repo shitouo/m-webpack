@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/shitouo/m-webpack/issues"
   },
-  "homepage": "https://github.com/shitouo/m-webpack#readme"
+  "homepage": "https://github.com/shitouo/m-webpack#readme",
+  "devDependencies": {
+    "acorn-dynamic-import": "^3.0.0"
+  }
 }
